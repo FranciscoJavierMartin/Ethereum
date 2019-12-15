@@ -7,7 +7,8 @@
     "ganache-cli": "^6.0.3",
     "mocha": "^6.2.2",
     "solc": "0.4.19",
-    "web3": "^1.2.4"
+    "web3": "^1.2.4",
+    "truffle-hdwallet-provider": "0.0.3"
   },
   "scripts": {
     "test": "mocha"
