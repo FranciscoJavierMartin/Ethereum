@@ -20,6 +20,7 @@
     "jsx": "react"
   },
   "include": [
-    "src"
+    "src",
+    "./node_modules/web3-typescript-typings/index.d.ts"
   ]
 }
