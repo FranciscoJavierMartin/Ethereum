@@ -5,7 +5,9 @@
   "license": "MIT",
   "scripts": {
     "test": "mocha",
-    "dev": "next dev"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
     "fs-extra": "^5.0.0",
@@ -20,5 +22,10 @@
     "solc": "^0.4.19",
     "truffle-hdwallet-provider": "0.0.3",
     "web3": "1.0.0-beta.26"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.21",
+    "@types/react": "^16.9.17",
+    "typescript": "^3.7.4"
   }
 }
